@@ -41,12 +41,12 @@ h3 {
 }
 
 .container {
-  width: 100vw;
+  width: 80%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80rem;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -56,9 +56,10 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-/* .flex-column {
+.flex-column {
   display: flex;
   flex-direction: column;
+  min-width: 70%;
 }
 
 .flex-center {
@@ -70,7 +71,7 @@ h3 {
 }
 .text-center {
   text-align: center;
-} */
+}
 
 .hidden {
   display: none;
